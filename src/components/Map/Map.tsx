@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 const Map = (props: Props) => {
   return (
     <div
-    className="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96"
-    style={{ backgroundImage: "url(/images/map.png)" }}
-  ></div>
-  )
-}
+      className="h-72 bg-cover bg-center bg-no-repeat sm:h-64 md:h-72 lg:h-96"
+      style={{ backgroundImage: "url(/images/map.png)" }}
+    ></div>
+  );
+};
 
-export default Map
+export default Map;
