@@ -12,16 +12,16 @@ const About = (props: Props) => {
             Who am I?
           </h2>
           <h4 className="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
-            I&apos;m Alchie Tagudin, a Web Developer.
+            I&apos;m Alchie Tagudin, a Front End Web Developer.
           </h4>
           <p className="pt-6 font-body leading-relaxed text-grey-20">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            I am skilled Front End Web Developer with expertise in HTML, CSS,
+            JavaScript, and TypeScript. He has experience with popular web
+            development libraries and frameworks such as React, Gatsby, Next.js,
+            and are also familiar with Strapi for content management. His strong
+            foundation in core web technologies and his proficiency in these
+            tools make him a valuable asset in crafting engaging and functional
+            websites.
           </p>
           <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
             <div className="flex items-center justify-center sm:justify-start">

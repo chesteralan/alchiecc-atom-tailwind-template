@@ -55,7 +55,7 @@ const Contact = (props: Props) => {
             </p>
           </div>
           <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-            (+881) 111 222 333
+            (+63) 995 294 7041 (SMS Only)
           </p>
         </div>
         <div className="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
@@ -66,7 +66,7 @@ const Contact = (props: Props) => {
             </p>
           </div>
           <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-            name@mydomain.com
+            tagudinalchie@gmail.com
           </p>
         </div>
         <div className="w-full border-l-2 border-t-0 border-r-2 border-b-2 border-grey-60 px-6 py-6 sm:py-8 lg:w-1/3 lg:border-l-0 lg:border-t-2">
@@ -77,7 +77,7 @@ const Contact = (props: Props) => {
             </p>
           </div>
           <p className="pt-2 text-left font-body font-bold text-primary lg:text-lg">
-            123 New York D Block 1100, 2011 USA
+            Small Village, Purok 21, Brgy. Mintal, Davao City
           </p>
         </div>
       </div>
