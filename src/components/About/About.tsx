@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { SOCIAL_MEDIA_LINKEDIN } from "@/utils/constants/links";
 
 type Props = {};
 
@@ -25,9 +26,14 @@ const About = (props: Props) => {
           </p>
           <div className="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
             <div className="flex items-center justify-center sm:justify-start">
-              <p className="font-body text-lg font-semibold uppercase text-grey-20">
+              <Link
+                className="font-body text-lg font-semibold uppercase text-grey-20"
+                href={SOCIAL_MEDIA_LINKEDIN}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Connect with me
-              </p>
+              </Link>
               <div className="hidden sm:block">
                 <i className="bx bx-chevron-right text-2xl text-primary"></i>
               </div>

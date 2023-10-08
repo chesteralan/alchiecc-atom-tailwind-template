@@ -35,8 +35,7 @@ export default function Home() {
         <Statistics />
         <Blog />
         <Contact />
-        <Map />
-        <Newsletter />
+
         <Footer />
       </main>
     </>
