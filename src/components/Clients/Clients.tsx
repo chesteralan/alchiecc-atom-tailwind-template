@@ -1,14 +1,11 @@
-import React from "react";
 import Image from "next/image";
 
-type Props = {};
-
-const Clients = (props: Props) => {
+const Clients = () => {
   return (
     <div className="bg-grey-50" id="clients">
-      <div className="container px-4 mx-auto py-16 md:py-20">
+      <div className="container mx-auto px-4 py-16 md:py-20">
         <div className="mx-auto w-full sm:w-3/4 lg:w-full">
-          <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+          <h2 className="font-header text-primary text-center text-4xl font-semibold uppercase sm:text-5xl lg:text-6xl">
             My latest clients
           </h2>
           <div className="flex flex-wrap items-center justify-center pt-4 sm:pt-4">

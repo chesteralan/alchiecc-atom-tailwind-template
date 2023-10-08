@@ -1,18 +1,11 @@
-import Head from "next/head";
-import Header from "@/components/Header";
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
 import About from "@/components/About";
-import Footer from "@/components/Footer";
-import Services from "@/components/Services";
-import Clients from "@/components/Clients";
-import Portfolio from "@/components/Portfolio";
-import Statistics from "@/components/Statistics";
-import Work from "@/components/Work";
 import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
-import Map from "@/components/Map";
-import Newsletter from "@/components/Newsletter";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -29,10 +22,6 @@ export default function Home() {
         <Hero />
         <About />
 
-        <Portfolio />
-        <Clients />
-        <Work />
-        <Statistics />
         <Blog />
         <Contact />
 

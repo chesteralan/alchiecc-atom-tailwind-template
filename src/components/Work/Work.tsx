@@ -1,20 +1,17 @@
-import React from "react";
 import Image from "next/image";
 
-type Props = {};
-
-const Work = (props: Props) => {
+const Work = () => {
   return (
-    <div className="container px-4 mx-auto py-16 md:py-20" id="work">
-      <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+    <div className="container mx-auto px-4 py-16 md:py-20" id="work">
+      <h2 className="font-header text-primary text-center text-4xl font-semibold uppercase sm:text-5xl lg:text-6xl">
         My work experience
       </h2>
-      <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+      <h3 className="font-header pt-6 text-center text-xl font-medium text-black sm:text-2xl lg:text-3xl">
         Here&apos;s what I did before freelancing
       </h3>
 
       <div className="relative mx-auto mt-12 flex w-full flex-col lg:w-2/3">
-        <span className="left-2/5 absolute inset-y-0 ml-10 hidden w-0.5 bg-grey-40 md:block"></span>
+        <span className="left-2/5 bg-grey-40 absolute inset-y-0 ml-10 hidden w-0.5 md:block"></span>
 
         <div className="mt-8 flex flex-col text-center md:flex-row md:text-left">
           <div className="md:w-2/5">
@@ -29,28 +26,27 @@ const Work = (props: Props) => {
                 />
               </span>
               <div className="relative ml-3 hidden w-full md:block">
-                <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                <span className="bg-grey-70 absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform"></span>
               </div>
             </div>
           </div>
           <div className="md:w-3/5">
-            <div className="relative flex md:pl-18">
-              <span className="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+            <div className="md:pl-18 relative flex">
+              <span className="border-grey-40 absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 bg-white md:block"></span>
 
               <div className="mt-1 flex">
-                <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
+                <i className="bx bxs-right-arrow text-primary hidden md:block"></i>
                 <div className="md:-mt-1 md:pl-8">
-                  <span className="block font-body font-bold text-grey-40">
+                  <span className="font-body text-grey-40 block font-bold">
                     Apr 2015 - Mar 2018
                   </span>
-                  <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">
+                  <span className="font-header text-primary block pt-2 text-xl font-bold uppercase">
                     Frontend Developer
                   </span>
                   <div className="pt-2">
-                    <span className="block font-body text-black">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Vestibulum mattis felis vitae risus pulvinar tincidunt.
-                      Nam ac venenatis enim.
+                    <span className="font-body block text-black">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis
+                      felis vitae risus pulvinar tincidunt. Nam ac venenatis enim.
                     </span>
                   </div>
                 </div>
@@ -71,28 +67,27 @@ const Work = (props: Props) => {
                 />
               </span>
               <div className="relative ml-3 hidden w-full md:block">
-                <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                <span className="bg-grey-70 absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform"></span>
               </div>
             </div>
           </div>
           <div className="md:w-3/5">
-            <div className="relative flex md:pl-18">
-              <span className="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+            <div className="md:pl-18 relative flex">
+              <span className="border-grey-40 absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 bg-white md:block"></span>
 
               <div className="mt-1 flex">
-                <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
+                <i className="bx bxs-right-arrow text-primary hidden md:block"></i>
                 <div className="md:-mt-1 md:pl-8">
-                  <span className="block font-body font-bold text-grey-40">
+                  <span className="font-body text-grey-40 block font-bold">
                     Mar 2018 - September 2019
                   </span>
-                  <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">
+                  <span className="font-header text-primary block pt-2 text-xl font-bold uppercase">
                     Software Engineer
                   </span>
                   <div className="pt-2">
-                    <span className="block font-body text-black">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Vestibulum mattis felis vitae risus pulvinar tincidunt.
-                      Nam ac venenatis enim.
+                    <span className="font-body block text-black">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis
+                      felis vitae risus pulvinar tincidunt. Nam ac venenatis enim.
                     </span>
                   </div>
                 </div>
@@ -113,28 +108,27 @@ const Work = (props: Props) => {
                 />
               </span>
               <div className="relative ml-3 hidden w-full md:block">
-                <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
+                <span className="bg-grey-70 absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform"></span>
               </div>
             </div>
           </div>
           <div className="md:w-3/5">
-            <div className="relative flex md:pl-18">
-              <span className="absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+            <div className="md:pl-18 relative flex">
+              <span className="border-grey-40 absolute left-8 top-1 hidden h-4 w-4 rounded-full border-2 bg-white md:block"></span>
 
               <div className="mt-1 flex">
-                <i className="bx bxs-right-arrow hidden text-primary md:block"></i>
+                <i className="bx bxs-right-arrow text-primary hidden md:block"></i>
                 <div className="md:-mt-1 md:pl-8">
-                  <span className="block font-body font-bold text-grey-40">
+                  <span className="font-body text-grey-40 block font-bold">
                     October 2019 - Feb 2021
                   </span>
-                  <span className="block pt-2 font-header text-xl font-bold uppercase text-primary">
+                  <span className="font-header text-primary block pt-2 text-xl font-bold uppercase">
                     DevOps Engineer
                   </span>
                   <div className="pt-2">
-                    <span className="block font-body text-black">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Vestibulum mattis felis vitae risus pulvinar tincidunt.
-                      Nam ac venenatis enim.
+                    <span className="font-body block text-black">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis
+                      felis vitae risus pulvinar tincidunt. Nam ac venenatis enim.
                     </span>
                   </div>
                 </div>

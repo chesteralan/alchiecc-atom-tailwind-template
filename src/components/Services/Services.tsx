@@ -1,20 +1,17 @@
-import React from "react";
 import Image from "next/image";
 
-type Props = {};
-
-const Services = (props: Props) => {
+const Services = () => {
   return (
-    <div className="container px-4 mx-auto py-16 md:py-20" id="services">
-      <h2 className="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl">
+    <div className="container mx-auto px-4 py-16 md:py-20" id="services">
+      <h2 className="font-header text-primary text-center text-4xl font-semibold uppercase sm:text-5xl lg:text-6xl">
         Here&apos;s what I&apos;m good at
       </h2>
-      <h3 className="pt-6 text-center font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl">
+      <h3 className="font-header pt-6 text-center text-xl font-medium text-black sm:text-2xl lg:text-3xl">
         These are the services I offer
       </h3>
 
       <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
-        <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+        <div className="hover:bg-primary group rounded px-8 py-12 shadow">
           <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div className="hidden group-hover:block">
               <Image
@@ -34,7 +31,7 @@ const Services = (props: Props) => {
             </div>
           </div>
           <div className="text-center">
-            <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+            <h3 className="text-primary group-hover:text-yellow pt-8 text-lg font-semibold uppercase lg:text-xl">
               WEB DEVELOPMENT
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
@@ -42,7 +39,7 @@ const Services = (props: Props) => {
             </p>
           </div>
         </div>
-        <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+        <div className="hover:bg-primary group rounded px-8 py-12 shadow">
           <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div className="hidden group-hover:block">
               <Image
@@ -62,7 +59,7 @@ const Services = (props: Props) => {
             </div>
           </div>
           <div className="text-center">
-            <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+            <h3 className="text-primary group-hover:text-yellow pt-8 text-lg font-semibold uppercase lg:text-xl">
               Technical Writing
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
@@ -70,7 +67,7 @@ const Services = (props: Props) => {
             </p>
           </div>
         </div>
-        <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+        <div className="hover:bg-primary group rounded px-8 py-12 shadow">
           <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div className="hidden group-hover:block">
               <Image
@@ -90,7 +87,7 @@ const Services = (props: Props) => {
             </div>
           </div>
           <div className="text-center">
-            <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+            <h3 className="text-primary group-hover:text-yellow pt-8 text-lg font-semibold uppercase lg:text-xl">
               Mobile Development
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
@@ -98,7 +95,7 @@ const Services = (props: Props) => {
             </p>
           </div>
         </div>
-        <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+        <div className="hover:bg-primary group rounded px-8 py-12 shadow">
           <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div className="hidden group-hover:block">
               <Image
@@ -118,7 +115,7 @@ const Services = (props: Props) => {
             </div>
           </div>
           <div className="text-center">
-            <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+            <h3 className="text-primary group-hover:text-yellow pt-8 text-lg font-semibold uppercase lg:text-xl">
               Email Development
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
@@ -126,7 +123,7 @@ const Services = (props: Props) => {
             </p>
           </div>
         </div>
-        <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+        <div className="hover:bg-primary group rounded px-8 py-12 shadow">
           <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div className="hidden group-hover:block">
               <Image
@@ -146,7 +143,7 @@ const Services = (props: Props) => {
             </div>
           </div>
           <div className="text-center">
-            <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+            <h3 className="text-primary group-hover:text-yellow pt-8 text-lg font-semibold uppercase lg:text-xl">
               Graphic Design
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">
@@ -154,7 +151,7 @@ const Services = (props: Props) => {
             </p>
           </div>
         </div>
-        <div className="group rounded px-8 py-12 shadow hover:bg-primary">
+        <div className="hover:bg-primary group rounded px-8 py-12 shadow">
           <div className="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div className="hidden group-hover:block">
               <Image
@@ -174,7 +171,7 @@ const Services = (props: Props) => {
             </div>
           </div>
           <div className="text-center">
-            <h3 className="pt-8 text-lg font-semibold uppercase text-primary group-hover:text-yellow lg:text-xl">
+            <h3 className="text-primary group-hover:text-yellow pt-8 text-lg font-semibold uppercase lg:text-xl">
               Web Design
             </h3>
             <p className="text-grey pt-4 text-sm group-hover:text-white md:text-base">

@@ -1,16 +1,13 @@
-import React from "react";
 import Image from "next/image";
 
-type Props = {};
-
-const Statistics = (props: Props) => {
+const Statistics = () => {
   return (
     <div
       className="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24"
       style={{ backgroundImage: "url(/images/experience-figure.png)" }}
       id="statistics"
     >
-      <div className="container px-4 mx-auto">
+      <div className="container mx-auto px-4">
         <div className="mx-auto w-5/6 bg-white py-16 shadow md:w-11/12 lg:py-20 xl:py-24 2xl:w-full">
           <div className="grid grid-cols-2 gap-5 md:gap-8 xl:grid-cols-4 xl:gap-5">
             <div className="flex flex-col items-center justify-center text-center md:flex-row md:text-left">
@@ -24,9 +21,7 @@ const Statistics = (props: Props) => {
                 />
               </div>
               <div className="pt-5 md:pl-5 md:pt-0">
-                <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                  12
-                </h1>
+                <h1 className="font-body text-primary text-2xl font-bold md:text-4xl">12</h1>
                 <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                   Finished Projects
                 </h4>
@@ -44,9 +39,7 @@ const Statistics = (props: Props) => {
                 />
               </div>
               <div className="pt-5 md:pl-5 md:pt-0">
-                <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                  3
-                </h1>
+                <h1 className="font-body text-primary text-2xl font-bold md:text-4xl">3</h1>
                 <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                   Awards Won
                 </h4>
@@ -64,9 +57,7 @@ const Statistics = (props: Props) => {
                 />
               </div>
               <div className="pt-5 md:pl-5 md:pt-0">
-                <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                  8
-                </h1>
+                <h1 className="font-body text-primary text-2xl font-bold md:text-4xl">8</h1>
                 <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                   Happy Clients
                 </h4>
@@ -84,9 +75,7 @@ const Statistics = (props: Props) => {
                 />
               </div>
               <div className="pt-5 md:pl-5 md:pt-0">
-                <h1 className="font-body text-2xl font-bold text-primary md:text-4xl">
-                  99
-                </h1>
+                <h1 className="font-body text-primary text-2xl font-bold md:text-4xl">99</h1>
                 <h4 className="text-grey-dark font-header text-base font-medium leading-loose md:text-xl">
                   Bugs Fixed
                 </h4>
